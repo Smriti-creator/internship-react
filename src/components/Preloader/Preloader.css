@@ -4,8 +4,8 @@
     top: 0px;
     width: 100%;
     height: 100%;
-    z-index: 999999;
-    background-color: rgb(49, 49, 177);
+    z-index: 888888;
+    background-color: rgba(23, 23, 24, 0.897);
     background-position: center center;
     background-repeat: no-repeat;
     opacity: 1;
@@ -19,15 +19,15 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 33333;
+    transform: translate(-40%, -40%);
+    z-index: 222222;
   }
   .preloader .spinner {
     width: 50px;
     height: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
-    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
-    animation: sk-rotateplane 1.2s infinite ease-in-out;
+    background-color: rgba(207, 91, 91, 0.8);
+    -webkit-animation: sk-rotateplane 1.1s infinite ease-in-out;
+    animation: sk-rotateplane 1.1s infinite ease-in-out;
   }
   
   @-webkit-keyframes sk-rotateplane {
@@ -35,10 +35,10 @@
       -webkit-transform: perspective(120px);
     }
     50% {
-      -webkit-transform: perspective(120px) rotateY(180deg);
+      -webkit-transform: perspective(120px) rotateY(360deg);
     }
     100% {
-      -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg);
+      -webkit-transform: perspective(120px) rotateY(118deg) rotateX(180deg);
     }
   }
   @keyframes sk-rotateplane {

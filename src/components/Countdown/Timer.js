@@ -51,25 +51,25 @@ class CountDown extends Component {
     const { days, seconds, hours, minutes } = this.state;
     return (
       <div id="countdown">
-        <div className="col-3">
+        <div className="col-4">
           <div className="panel-body">
             <p id="day">{days}</p>
             <span className="text">Days</span>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-4">
           <div className="box">
             <p id="hour">{hours}</p>
             <span className="text">Hours</span>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-4">
           <div className="box">
             <p id="minute">{minutes}</p>
             <span className="text">Minutes</span>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-4">
           <div className="box">
             <p id="second">{seconds}</p>
             <span className="text">Seconds</span>
